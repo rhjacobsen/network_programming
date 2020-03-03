@@ -50,9 +50,9 @@ See [Tom Lee (dot co)'s blog: GNU Screen splitting](https://tomlee.co/2011/10/gn
 
 [comment]: <> (## Repository structure)
 
-[//]: <> A simple C++ project structure
+[comment]: <>[//]: <> A simple C++ project structure
 
-[//]: <> https://hiltmon.com/blog/2013/07/03/a-simple-c-plus-plus-project-structure/
+[//]: <> (https://hiltmon.com/blog/2013/07/03/a-simple-c-plus-plus-project-structure/)
 
 <> ## Make file
 <> http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
