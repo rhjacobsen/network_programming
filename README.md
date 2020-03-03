@@ -8,19 +8,33 @@ Clone the directory to get started. Issuing the command `make` should produce tw
 ./server
 ```
 
-run the server
+run the server and
 
 ```
 ./client
 ```
 
-runs the client.
+runs the client. Issuing the the commands in this order should give the following output for the server
 
+```
+Server is running
+Hello from client
+```
 
+and 
 
-For class room demonstration it is posible to use 'screen' to split the screens vertically and run the server and the client in different windows.
+```
+Hello message sent
+Hello from server
+```
+for the client.
 
-Screen is started as: sudo screen
+### Tip to use screen for demonstration in a single terminal
+For a class room demonstration I use the `screen` program that allows me to split the terminal windows horizontally (or vertically). 
+I subsequently run the server and the client in different windows. 
+
+. first
+. second
 
 For instance use (CTRL-a |) to split the screen vertically, or use CTRL-a S to split the pane horizontally.
 Use CTRL-a TAB to toogle between screens.
