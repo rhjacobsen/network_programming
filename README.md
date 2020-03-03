@@ -43,6 +43,11 @@ I subsequently run the server and the client in different windows. The essential
 See [Tom Lee (dot co)'s blog: GNU Screen splitting](https://tomlee.co/2011/10/gnu-screen-splitting/) for additional tips on how to use screen.
 
 
+[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (in  the output file unless you use it in)
+[comment]: <> (a reference style link.)
+
+
 [//]: <> ## Repository structure
 
 [//]: <> A simple C++ project structure
