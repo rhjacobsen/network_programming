@@ -43,16 +43,8 @@ I subsequently run the server and the client in different windows. The essential
 See [Tom Lee (dot co)'s blog: GNU Screen splitting](https://tomlee.co/2011/10/gnu-screen-splitting/) for additional tips on how to use screen.
 
 
-[comment]: <> (This is a comment, it will not be included)
-[comment]: <> (in  the output file unless you use it in)
-[comment]: <> (a reference style link.)
-
-
-[comment]: <> (## Repository structure)
-
-[comment]: (A simple C++ project structure)
+[comment]: <> (## Repository structure and makefile)
 
 [//]: (https://hiltmon.com/blog/2013/07/03/a-simple-c-plus-plus-project-structure/)
 
-<> ## Make file
-<> http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+[//]: (http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
