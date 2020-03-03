@@ -1,7 +1,9 @@
-# network_programming
+# Network Programming
 
-For demonstration it is posible to use 'screen' to split the screens vertically
-and run the server and the client in different windows.
+This software contains a simple client and server program written by using C/C++ socket programming. The aim is to provide a functional demonstartion of the socket API function calls $socket()$
+
+
+For class room demonstration it is posible to use 'screen' to split the screens vertically and run the server and the client in different windows.
 
 Screen is started as: sudo screen
 
