@@ -48,7 +48,7 @@ See [Tom Lee (dot co)'s blog: GNU Screen splitting](https://tomlee.co/2011/10/gn
 [comment]: <> (a reference style link.)
 
 
-[//]: <> ## Repository structure
+[comment]: <> (## Repository structure)
 
 [//]: <> A simple C++ project structure
 
