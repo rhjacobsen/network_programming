@@ -1,5 +1,5 @@
 #! /usr/bin/perl -w
-# client1.pl - a simple client
+# tptcpclient.pl - a simple TCP client for the RFC 868 Time Protocol
 #----------------
 
 use strict;
@@ -19,10 +19,16 @@ my $paddr = sockaddr_in($port, $iaddr);
 socket(SOCKET, PF_INET, SOCK_STREAM, $proto) or die "socket: $!\n";
 connect(SOCKET, $paddr) or die "connect: $!\n";
 
-my $line;
+my $line = "";
+my $str_len = 0;
+my $time_stamp;
+
+# Loop until server stops sending.
 while ($line = <SOCKET> )  
 {
-    print $line;
+    chomp($line);                                  # Remove any newline characters
+    $str_len = length($line);                      # Variable hold the length of the recieved data
+    $time_stamp = unpack("I", $line);
+    print STDOUT "Recv. $str_len bytes: $line  (uint = $time_stamp)\n";
 }
 close SOCKET or die "close: $!";
-

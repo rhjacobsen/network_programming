@@ -1,5 +1,5 @@
 #! /usr/bin/perl -w
-# server0.pl
+# tptcpserver.pl
 #--------------------
 
 use strict;
@@ -25,17 +25,25 @@ print "SERVER started on port $port.\n";
 my $client_addr;
 while ($client_addr = accept(CLIENT, SERVER))
 {
-
     # find out who connected
     my ($client_port, $client_ip) = sockaddr_in($client_addr);
     my $client_ipnum = inet_ntoa($client_ip);
     my $client_host = gethostbyaddr($client_ip, AF_INET);
 
     # print who has connected
-    print "got a connection from: $client_host","[$client_ipnum] ";
+    print STDOUT "Got a connection from: $client_host"," [$client_ipnum]\n";
 
     # send them a message, close connection
     print CLIENT "Smile from the server.\n";
+
+    # 2,524,521,600 corresponds to 00:00  1 Jan 1980 GMT 
+    # Time stamps is represented as 32 bit uniary numbers (unsigned int)
+    my $time_stamp = pack("I", 2524521600);
+
+    # Send the timestamp.
+    # The newline ("\n") character will define the end of the stream
+    print CLIENT "$time_stamp\n";
+
     close CLIENT;
  }
 
