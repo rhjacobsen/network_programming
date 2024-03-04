@@ -39,6 +39,8 @@ I subsequently run the server and the client in different windows. The essential
 - Use CTRL-a d to detach a screen from the TTY and put it in the background
 - Use CTRL-a X will close the pane that has focus.
 
+To simplify the prompt I use: ```PS1='$ '```.
+
 
 See [Tom Lee (dot co)'s blog: GNU Screen splitting](https://tomlee.co/2011/10/gnu-screen-splitting/) for additional tips on how to use screen.
 
