@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
         perror("listen");
         exit(EXIT_FAILURE);
     }
-    printf("Server is running\n");
+    printf("Server is running.\n");
 
     // Accepting a connection
     if ((new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t*)&addrlen))<0)
