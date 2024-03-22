@@ -5,13 +5,13 @@ This software contains a simple client and server program written by using C/C++
 Clone the directory to get started. Issuing the command `make` should produce two binaries: server and client, respectively. 
 
 ```
-./server
+./build/server
 ```
 
 run the server and
 
 ```
-./client
+./build/client
 ```
 
 runs the client. Issuing the the commands in this order should give the following output for the server
