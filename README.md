@@ -41,8 +41,9 @@ I subsequently run the server and the client in different windows. The essential
 
 To simplify the prompt I use: ```PS1='$ '```.
 
-
 See [Tom Lee (dot co)'s blog: GNU Screen splitting](https://tomlee.co/2011/10/gnu-screen-splitting/) for additional tips on how to use screen.
+
+Alternativelt, [tmux](https://tmuxcheatsheet.com/) can be used.
 
 
 [comment]: <> (## Repository structure and makefile)
