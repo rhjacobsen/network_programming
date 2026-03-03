@@ -30,7 +30,7 @@ Hello from server
 for the client.
 
 You may want to inspect the packet exchange using `tcpdump`. Example:
-````
+```
 $ sudo tcpdump -i lo src port 9001 -n
 11:03:43.043309 IP 127.0.0.1.9001 > 127.0.0.1.34480: Flags [S.], seq 3587490196, ack 3158623795, win 65483, options [mss 65495,sackOK,TS val 2260310467 ecr 2260310467,nop,wscale 7], length 0
 11:03:43.043394 IP 127.0.0.1.9001 > 127.0.0.1.34480: Flags [.], ack 18, win 512, options [nop,nop,TS val 2260310467 ecr 2260310467], length 0
